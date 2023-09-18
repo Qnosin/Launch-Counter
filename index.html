@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Launch Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__headline">We're launching soon</h1>
+      </header>
+      <main class="main">
+        <div class="main__clock">
+          <div class="main__wrapper">
+            <div class="main__black-fragment"></div>
+            <div class="main__heading" id="days"></div>
+            <div class="wrapper">
+              <hr class="black-line" />
+              <div class="black-dot"></div>
+              <div class="black-dot-2"></div>
+            </div>
+          </div>
+          <p class="main__desc">Days</p>
+        </div>
+
+        <div class="main__clock">
+          <div class="main__wrapper">
+            <div class="main__black-fragment"></div>
+            <div class="main__heading" id="hours"></div>
+            <div class="wrapper">
+              <hr class="black-line" />
+              <div class="black-dot"></div>
+              <div class="black-dot-2"></div>
+            </div>
+          </div>
+          <p class="main__desc">Hours</p>
+        </div>
+
+        <div class="main__clock">
+          <div class="main__wrapper">
+            <div class="main__black-fragment"></div>
+            <div class="main__heading" id="minutes"></div>
+            <div class="wrapper">
+              <hr class="black-line" />
+              <div class="black-dot"></div>
+              <div class="black-dot-2"></div>
+            </div>
+          </div>
+          <p class="main__desc">Minutes</p>
+        </div>
+
+        <div class="main__clock">
+          <div class="main__wrapper">
+            <div class="main__black-fragment"></div>
+            <div class="main__heading" id="seconds"></div>
+            <div class="wrapper">
+              <hr class="black-line" />
+              <div class="black-dot"></div>
+              <div class="black-dot-2"></div>
+            </div>
+          </div>
+          <p class="main__desc">Seconds</p>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__socials">
+        <a class="footer__link" href="#">
+          <img
+            class="footer__icon"
+            src="./images/icon-facebook.svg"
+            alt="facebook"
+        /></a>
+        <a class="footer__link" href="#">
+          <img
+            class="footer__icon"
+            src="./images/icon-pinterest.svg"
+            alt="pinterest"
+        /></a>
+        <a href="#">
+          <img
+            class="footer__icon"
+            src="./images/icon-instagram.svg"
+            alt="instagram"
+        /></a>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
